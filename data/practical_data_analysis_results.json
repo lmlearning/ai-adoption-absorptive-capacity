@@ -1,0 +1,366 @@
+{
+  "n": 1101,
+  "role_dist": {
+    "Data Engineer": 426,
+    "Manager/Director/VP": 237,
+    "Analytics Engineer": 154,
+    "Data Architect": 133,
+    "Software/Platform Engineer": 58,
+    "Other": 55,
+    "ML/AI/Data Science": 38
+  },
+  "org_size_dist": {
+    "1,000\u201310,000": 311,
+    "200\u2013999": 231,
+    "10,000+": 229,
+    "< 50 employees": 174,
+    "50\u2013199": 156
+  },
+  "industry_dist": {
+    "Tech": 430,
+    "Finance": 176,
+    "Retail/e-commerce": 146,
+    "Manufacturing / Industrial": 142,
+    "Healthcare": 111,
+    "Public sector / Education": 96
+  },
+  "region_dist": {
+    "United States / Canada": 436,
+    "Europe (EU / UK)": 432,
+    "Asia\u2013Pacific": 94,
+    "Latin America": 52,
+    "Australia / New Zealand": 52,
+    "Middle East / Africa": 28,
+    "Prefer not to say": 7
+  },
+  "freq_dist": {
+    "Multiple times per day": 594,
+    "Daily": 311,
+    "Weekly": 118,
+    "Rarely": 67,
+    "Never": 11
+  },
+  "adoption_dist": {
+    "Using AI for tactical tasks": 372,
+    "Experimenting": 336,
+    "Building internal AI platforms": 150,
+    "No meaningful adoption yet": 134,
+    "AI embedded in most workflows": 109
+  },
+  "daily_or_more_pct": 82.2,
+  "experimenting_or_less_pct": 42.7,
+  "adoption_by_orgsize": {
+    "AI embedded in most workflows": {
+      "1,000\u201310,000": 7.1,
+      "10,000+": 10.0,
+      "200\u2013999": 8.7,
+      "50\u2013199": 13.5,
+      "< 50 employees": 13.200000000000001
+    },
+    "Building internal AI platforms": {
+      "1,000\u201310,000": 15.1,
+      "10,000+": 21.8,
+      "200\u2013999": 7.3999999999999995,
+      "50\u2013199": 9.0,
+      "< 50 employees": 12.6
+    },
+    "Experimenting": {
+      "1,000\u201310,000": 36.3,
+      "10,000+": 26.200000000000003,
+      "200\u2013999": 29.9,
+      "50\u2013199": 28.799999999999997,
+      "< 50 employees": 28.199999999999996
+    },
+    "No meaningful adoption yet": {
+      "1,000\u201310,000": 12.5,
+      "10,000+": 10.5,
+      "200\u2013999": 13.0,
+      "50\u2013199": 12.2,
+      "< 50 employees": 12.6
+    },
+    "Using AI for tactical tasks": {
+      "1,000\u201310,000": 28.9,
+      "10,000+": 31.4,
+      "200\u2013999": 41.099999999999994,
+      "50\u2013199": 36.5,
+      "< 50 employees": 33.300000000000004
+    }
+  },
+  "chi2_adoption_orgsize": {
+    "chi2": 40.54,
+    "p": 0.0006,
+    "dof": 16
+  },
+  "bottleneck_by_adoption": {
+    "Organizational": {
+      "AI embedded in most workflows": 41.3,
+      "Building internal AI platforms": 51.300000000000004,
+      "Experimenting": 55.1,
+      "No meaningful adoption yet": 60.4,
+      "Using AI for tactical tasks": 48.1
+    },
+    "Other": {
+      "AI embedded in most workflows": 8.3,
+      "Building internal AI platforms": 7.3,
+      "Experimenting": 4.2,
+      "No meaningful adoption yet": 2.1999999999999997,
+      "Using AI for tactical tasks": 5.1
+    },
+    "Technical": {
+      "AI embedded in most workflows": 50.5,
+      "Building internal AI platforms": 41.3,
+      "Experimenting": 40.8,
+      "No meaningful adoption yet": 37.3,
+      "Using AI for tactical tasks": 46.800000000000004
+    }
+  },
+  "chi2_adoption_bottleneck": {
+    "chi2": 16.34,
+    "p": 0.0378,
+    "dof": 8
+  },
+  "modeling_by_adoption": {
+    "Ad-hoc": {
+      "AI embedded in most workflows": 9.2,
+      "Building internal AI platforms": 17.299999999999997,
+      "Experimenting": 20.200000000000003,
+      "No meaningful adoption yet": 25.4,
+      "Using AI for tactical tasks": 14.499999999999998
+    },
+    "Canonical/Semantic": {
+      "AI embedded in most workflows": 5.5,
+      "Building internal AI platforms": 3.3000000000000003,
+      "Experimenting": 3.9,
+      "No meaningful adoption yet": 6.7,
+      "Using AI for tactical tasks": 7.8
+    },
+    "Data Vault": {
+      "AI embedded in most workflows": 2.8000000000000003,
+      "Building internal AI platforms": 4.0,
+      "Experimenting": 5.7,
+      "No meaningful adoption yet": 3.0,
+      "Using AI for tactical tasks": 1.9
+    },
+    "Event-driven": {
+      "AI embedded in most workflows": 6.4,
+      "Building internal AI platforms": 5.3,
+      "Experimenting": 2.4,
+      "No meaningful adoption yet": 0.7000000000000001,
+      "Using AI for tactical tasks": 3.2
+    },
+    "Kimball": {
+      "AI embedded in most workflows": 22.900000000000002,
+      "Building internal AI platforms": 23.3,
+      "Experimenting": 28.9,
+      "No meaningful adoption yet": 27.6,
+      "Using AI for tactical tasks": 30.099999999999998
+    },
+    "Mixed": {
+      "AI embedded in most workflows": 47.699999999999996,
+      "Building internal AI platforms": 41.3,
+      "Experimenting": 32.7,
+      "No meaningful adoption yet": 30.599999999999998,
+      "Using AI for tactical tasks": 37.6
+    },
+    "One Big Table": {
+      "AI embedded in most workflows": 4.6,
+      "Building internal AI platforms": 2.7,
+      "Experimenting": 4.8,
+      "No meaningful adoption yet": 4.5,
+      "Using AI for tactical tasks": 3.8
+    },
+    "Other": {
+      "AI embedded in most workflows": 0.8999999999999999,
+      "Building internal AI platforms": 2.7,
+      "Experimenting": 1.5,
+      "No meaningful adoption yet": 1.5,
+      "Using AI for tactical tasks": 1.0999999999999999
+    }
+  },
+  "chi2_adoption_modeling": {
+    "chi2": 48.92,
+    "p": 0.0085,
+    "dof": 28
+  },
+  "adoption_by_industry": {
+    "AI embedded in most workflows": {
+      "Finance": 6.2,
+      "Healthcare": 9.0,
+      "Manufacturing / Industrial": 6.3,
+      "Public sector / Education": 7.3,
+      "Retail/e-commerce": 8.9,
+      "Tech": 13.700000000000001
+    },
+    "Building internal AI platforms": {
+      "Finance": 15.9,
+      "Healthcare": 9.0,
+      "Manufacturing / Industrial": 7.7,
+      "Public sector / Education": 5.2,
+      "Retail/e-commerce": 13.700000000000001,
+      "Tech": 17.7
+    },
+    "Experimenting": {
+      "Finance": 29.5,
+      "Healthcare": 36.0,
+      "Manufacturing / Industrial": 35.199999999999996,
+      "Public sector / Education": 40.6,
+      "Retail/e-commerce": 33.6,
+      "Tech": 24.7
+    },
+    "No meaningful adoption yet": {
+      "Finance": 15.299999999999999,
+      "Healthcare": 14.399999999999999,
+      "Manufacturing / Industrial": 19.0,
+      "Public sector / Education": 13.5,
+      "Retail/e-commerce": 13.700000000000001,
+      "Tech": 7.199999999999999
+    },
+    "Using AI for tactical tasks": {
+      "Finance": 33.0,
+      "Healthcare": 31.5,
+      "Manufacturing / Industrial": 31.7,
+      "Public sector / Education": 33.300000000000004,
+      "Retail/e-commerce": 30.099999999999998,
+      "Tech": 36.7
+    }
+  },
+  "chi2_adoption_industry": {
+    "chi2": 56.88,
+    "p": 0.0,
+    "dof": 20
+  },
+  "pain_by_adoption": {
+    "pain_ownership": {
+      "AI embedded in most workflows": 42.199999999999996,
+      "Building internal AI platforms": 42.699999999999996,
+      "Experimenting": 56.8,
+      "No meaningful adoption yet": 62.7,
+      "Using AI for tactical tasks": 46.5
+    },
+    "pain_speed": {
+      "AI embedded in most workflows": 63.3,
+      "Building internal AI platforms": 60.699999999999996,
+      "Experimenting": 59.199999999999996,
+      "No meaningful adoption yet": 51.5,
+      "Using AI for tactical tasks": 60.5
+    },
+    "pain_maintain": {
+      "AI embedded in most workflows": 40.400000000000006,
+      "Building internal AI platforms": 38.0,
+      "Experimenting": 37.8,
+      "No meaningful adoption yet": 46.300000000000004,
+      "Using AI for tactical tasks": 38.2
+    },
+    "pain_tools": {
+      "AI embedded in most workflows": 19.3,
+      "Building internal AI platforms": 17.299999999999997,
+      "Experimenting": 17.599999999999998,
+      "No meaningful adoption yet": 19.400000000000002,
+      "Using AI for tactical tasks": 19.900000000000002
+    },
+    "pain_ai_schema": {
+      "AI embedded in most workflows": 7.3,
+      "Building internal AI platforms": 6.7,
+      "Experimenting": 2.7,
+      "No meaningful adoption yet": 4.5,
+      "Using AI for tactical tasks": 3.8
+    },
+    "pain_none": {
+      "AI embedded in most workflows": 11.899999999999999,
+      "Building internal AI platforms": 14.7,
+      "Experimenting": 11.600000000000001,
+      "No meaningful adoption yet": 9.0,
+      "Using AI for tactical tasks": 10.2
+    }
+  },
+  "pain_count_by_adoption": {
+    "AI embedded in most workflows": 1.72,
+    "Building internal AI platforms": 1.65,
+    "Experimenting": 1.74,
+    "No meaningful adoption yet": 1.84,
+    "Using AI for tactical tasks": 1.69
+  },
+  "adoption_by_freq": {
+    "AI embedded in most workflows": {
+      "Daily": 8.0,
+      "Multiple times per day": 13.0,
+      "Never": 0.0,
+      "Rarely": 3.0,
+      "Weekly": 4.2
+    },
+    "Building internal AI platforms": {
+      "Daily": 10.299999999999999,
+      "Multiple times per day": 16.3,
+      "Never": 9.1,
+      "Rarely": 7.5,
+      "Weekly": 12.7
+    },
+    "Experimenting": {
+      "Daily": 32.2,
+      "Multiple times per day": 26.3,
+      "Never": 36.4,
+      "Rarely": 43.3,
+      "Weekly": 39.800000000000004
+    },
+    "No meaningful adoption yet": {
+      "Daily": 12.5,
+      "Multiple times per day": 9.6,
+      "Never": 45.5,
+      "Rarely": 34.300000000000004,
+      "Weekly": 8.5
+    },
+    "Using AI for tactical tasks": {
+      "Daily": 37.0,
+      "Multiple times per day": 34.8,
+      "Never": 9.1,
+      "Rarely": 11.899999999999999,
+      "Weekly": 34.699999999999996
+    }
+  },
+  "bottleneck_dist": {
+    "Legacy / technical debt": 280,
+    "Lack of leadership direction": 234,
+    "Poor requirements / upstream issues": 207,
+    "Talent / hiring": 126,
+    "Data quality": 111,
+    "Compute costs": 57,
+    "Other": 56,
+    "Tool complexity": 30
+  },
+  "bottleneck_org_pct": 51.5,
+  "bottleneck_tech_pct": 43.4,
+  "spearman_freq_adoption": {
+    "rho": 0.203,
+    "p": 0.0
+  },
+  "growth_by_adoption": {
+    "Grow": {
+      "AI embedded in most workflows": 49.5,
+      "Building internal AI platforms": 42.699999999999996,
+      "Experimenting": 36.9,
+      "No meaningful adoption yet": 32.1,
+      "Using AI for tactical tasks": 47.599999999999994
+    },
+    "Not sure": {
+      "AI embedded in most workflows": 4.6,
+      "Building internal AI platforms": 10.0,
+      "Experimenting": 8.6,
+      "No meaningful adoption yet": 10.4,
+      "Using AI for tactical tasks": 4.6
+    },
+    "Shrink": {
+      "AI embedded in most workflows": 6.4,
+      "Building internal AI platforms": 11.3,
+      "Experimenting": 6.0,
+      "No meaningful adoption yet": 7.5,
+      "Using AI for tactical tasks": 6.5
+    },
+    "Stay the same": {
+      "AI embedded in most workflows": 39.4,
+      "Building internal AI platforms": 36.0,
+      "Experimenting": 48.5,
+      "No meaningful adoption yet": 50.0,
+      "Using AI for tactical tasks": 41.4
+    }
+  }
+}
