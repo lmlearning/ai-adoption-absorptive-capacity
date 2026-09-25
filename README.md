@@ -1,4 +1,4 @@
-# Reproducibility materials
+# AI Adoption and the Absorptive Capacity Gap
 
 **The Absorptive Capacity Gap in AI Adoption: A Segmented, Stage-Based Explanation from Two Developer Surveys**
 
