@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated paper where applicable."
+type: software
+title: "AI Adoption and the Absorptive Capacity Gap"
+authors:
+  - family-names: Malmqvist
+    given-names: Lars
+repository-code: "https://github.com/lmlearning/ai-adoption-absorptive-capacity"
+url: "https://github.com/lmlearning/ai-adoption-absorptive-capacity"
+license: MIT

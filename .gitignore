@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
+/data/stackoverflow_2025_survey.csv
+/reproduction/
+/analysis_outputs/
