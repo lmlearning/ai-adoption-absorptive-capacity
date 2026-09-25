@@ -68,6 +68,23 @@ pdflatex main && bibtex main && pdflatex main && pdflatex main
 - **Practical Data Community State of Data Engineering Survey (2026)**: https://joereis.github.io/practical_data_data_eng_survey/
 - **Stack Overflow Developer Survey 2025**: https://survey.stackoverflow.co/2025/ (Open Database License)
 
+## Statistical component tests
+
+```bash
+python -m pip install pytest pandas scipy
+python -m pytest tests
+```
+
+The usage-versus-maturity Spearman calculation uses only respondents with both
+ordered categorical answers present, aligning responses by respondent index.
+Missing answers are removed before categorical encoding so pandas' missing-value
+code (`-1`) cannot be treated as a genuine response rank. Fewer than two complete
+pairs or a constant variable produce undefined (`NaN`) rho and p values. The output
+CSV retains its `spearman_rho` and `p_value` columns.
+
+These tests cover the correlation calculation and require no survey downloads.
+Full model and figure reproduction still uses the workflow above.
+
 ## License
 
 Code: MIT. Data: see respective survey licenses above.

@@ -28,7 +28,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import PercentFormatter
-from scipy.stats import spearmanr
+from analysis_stats import ordinal_spearman
 import statsmodels.formula.api as smf
 
 
@@ -652,7 +652,7 @@ def main() -> None:
     )
 
     # Descriptive: usage–maturity Spearman (Practical Data)
-    rho, p = spearmanr(practical["ai_usage_frequency"].cat.codes, practical["ai_adoption"].cat.codes)
+    rho, p = ordinal_spearman(practical["ai_usage_frequency"], practical["ai_adoption"])
     pd.DataFrame({"spearman_rho": [rho], "p_value": [p]}).to_csv(os.path.join(analysis_dir, "spearman_usage_vs_maturity.csv"), index=False)
 
     # Generate all figures
